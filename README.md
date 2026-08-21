@@ -63,3 +63,5 @@ The two should be identical. If they are not, do not run the file.
 Only the **Setup** installer. The portable build cannot overwrite itself while
 running, so it reports that it cannot update rather than pretending to — a
 portable copy has to be replaced by hand.
+
+<!-- Maintained in the source repository at docs/releases-repo/README.md. Edits made here are overwritten on the next release. -->
