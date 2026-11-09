@@ -1,9 +1,9 @@
-# iSingWorship — Releases
+# Lamplight — Releases
 
-Installers for the iSingWorship desktop app for Windows. This repository holds
+Installers for the Lamplight desktop app for Windows. This repository holds
 binaries only; the source lives elsewhere and is private.
 
-**Already running iSingWorship? You do not need this page.** The app checks for
+**Already running Lamplight? You do not need this page.** The app checks for
 updates itself, shows you what changed, and installs when you say so. That path
 downloads over its own connection, so none of the warnings below appear.
 
