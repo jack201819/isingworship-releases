@@ -10,7 +10,7 @@ downloads over its own connection, so none of the warnings below appear.
 ## Downloading by hand
 
 Grab the newest installer from the [Releases](../../releases/latest) page:
-`iSingWorship-Windows-Setup-<version>.exe`.
+`Lamplight-Setup-<version>.exe`.
 
 (`update-windows.json` is the manifest the app reads to update itself. There is
 no reason to download it by hand.)
@@ -23,8 +23,8 @@ they mean "we do not know who made this".
 
 **1. In the browser, while downloading**
 
-> *iSingWorship-Windows-Setup-….exe isn't commonly downloaded. Make sure you
-> trust iSingWorship-Windows-Setup-….exe before you open it.*
+> *Lamplight-Setup-….exe isn't commonly downloaded. Make sure you
+> trust Lamplight-Setup-….exe before you open it.*
 
 Every release is a brand-new file that almost nobody has downloaded yet, so it
 has no reputation. Click the **chevron (⌄) next to Delete**, then **Keep** —
@@ -49,7 +49,7 @@ To check by hand, in PowerShell:
 
 ```powershell
 # The hash of the file you downloaded
-$h = Get-FileHash -Algorithm SHA512 "iSingWorship-Windows-Setup-2026.9.0.exe"
+$h = Get-FileHash -Algorithm SHA512 "Lamplight-Setup-2026.9.0.exe"
 [Convert]::ToBase64String(($h.Hash -split '(..)' -ne '' | ForEach-Object { [Convert]::ToByte($_, 16) }))
 
 # The hash the release claims
